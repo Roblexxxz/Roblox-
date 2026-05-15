@@ -86,6 +86,31 @@ nav {
     border: 1px solid #ddd;
 }
 
+#content {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px 20px;
+}
+
+.dashboard-card {
+    background: white;
+    border-radius: 12px;
+    padding: 24px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+}
+
+.dashboard-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 18px;
+}
+
+.dashboard-actions button {
+    width: auto;
+    min-width: 180px;
+}
+
 /* 3D Game Canvas */
 #game-canvas {
     width: 100vw;
